@@ -1,6 +1,6 @@
 export default {
   fonts: {
-    main: "Noto Sans JP, sans-serif",
+    main: "游ゴシック体, Yu Gothic, YuGothic, Helvetica Neue, sans-serif",
     code: "Roboto Mono, monospace",
   },
   colors: {
@@ -11,8 +11,11 @@ export default {
     light1: "#F7F7F7",
   },
   breakpoints: {
-    mobile: "only screen and (max-width:600px)",
-    tablet: "only screen and (max-width:900px)",
+    Small: "only screen and (max-width:576px)",
+    Medium: "only screen and (max-width:768px)",
+    Large: "only screen and (max-width:992px)",
+    ExtraLarge: "only screen and (max-width:1200px)",
+    xExtraLarge: "only screen and (max-width:1400px)",
   },
   spacing: {
     xxSmall: ".25rem",
@@ -20,6 +23,7 @@ export default {
     Small: "1rem",
     medium: "2rem",
     large: "3rem",
+    larger: "3.75rem",
     xlarge: "4rem",
     xxlarge: "5rem",
   },
