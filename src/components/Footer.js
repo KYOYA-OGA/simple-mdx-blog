@@ -3,6 +3,7 @@ import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF"
 import { FaTwitter } from "@react-icons/all-files/fa/FaTwitter"
 import { FaInstagram } from "@react-icons/all-files/fa/FaInstagram"
 import { FaLine } from "@react-icons/all-files/fa/FaLine"
+import { P } from "../elements"
 
 import {
   FooterWrapper,
@@ -52,7 +53,9 @@ export const Footer = () => {
             </h3>
           </a>
         </FooterSocialIcons>
-        <p>&copy; 2020 KYOYA</p>
+        <P size="xSmall" color="dark2">
+          &copy; 2020 KYOYA
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )

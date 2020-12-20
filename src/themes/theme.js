@@ -8,7 +8,8 @@ export default {
     second: "#763626",
     dark1: "#2a3132",
     dark2: "#666",
-    light1: "#F7F7F7",
+    light1: "#F4F2F1",
+    light2: "#BAC4C7",
   },
   breakpoints: {
     Small: "only screen and (max-width:576px)",
@@ -17,7 +18,7 @@ export default {
     ExtraLarge: "only screen and (max-width:1200px)",
     xExtraLarge: "only screen and (max-width:1400px)",
   },
-  spacing: {
+  spacings: {
     xxSmall: ".25rem",
     xSmall: ".5rem",
     Small: "1rem",
